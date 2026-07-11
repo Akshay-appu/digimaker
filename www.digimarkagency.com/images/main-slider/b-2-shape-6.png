@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      404 Page | DigiMark Agency
+    </title>
+    <meta name="description" content="The Requested page for Digimark is not Available resulted in a 404 page.">
+    <meta name="google" content="notranslate" />
+    <link rel="canonical" href="https://www.digimarkagency.com/404.html">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/owl.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="css/linoor-icons-2.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet">
+    <link href="css/custom-animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- rtl css -->
+    <link href="css/rtl.css" rel="stylesheet">
+    <!-- Responsive File -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Color css -->
+    <link rel="stylesheet" id="jssDefault" href="css/colors/color-default.css">
+    <link rel="shortcut icon" href="images/favicon.png" id="fav-shortcut" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" id="fav-icon" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.png" id="fav-shortcut" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" id="fav-icon" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <script type="42561e77a63bb6a74f95b7a7-text/javascript">
+      (function(i,s,o,g,r,a,m){
+        i['GoogleAnalyticsObject']=r;
+        i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)}
+          ,i[r].l=1*new Date();
+        a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];
+        a.async=1;
+        a.src=g;
+        m.parentNode.insertBefore(a,m)
+      }
+      )(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-60733201-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <meta property="og:title" content="404 Page">
+    <meta property="og:site_name" content="404 Page - Digimark Agency">
+    <meta property="og:url" content="https://digimarkagency.com/about-us.html">
+    <meta property="og:description" content="About Us - Digimark agency, Know more about us.">
+    <meta property="og:type" content="website">
+  <script data-cfasync="false" nonce="c74d2edd-ada9-4a27-9f39-41a987073eb2">try{(function(w,d){!function(bH,bI,bJ,bK){if(bH.zaraz)console.error("zaraz is loaded twice");else{bH[bJ]=bH[bJ]||{};bH[bJ].executed=[];bH.zaraz={deferred:[],listeners:[]};bH.zaraz._v="5876";bH.zaraz._n="c74d2edd-ada9-4a27-9f39-41a987073eb2";bH.zaraz.q=[];bH.zaraz._f=function(bL){return async function(){var bM=Array.prototype.slice.call(arguments);bH.zaraz.q.push({m:bL,a:bM})}};for(const bN of["track","set","debug"])bH.zaraz[bN]=bH.zaraz._f(bN);bH.zaraz.init=()=>{var bO=bI.getElementsByTagName(bK)[0],bP=bI.createElement(bK),bQ=bI.getElementsByTagName("title")[0];bQ&&(bH[bJ].t=bI.getElementsByTagName("title")[0].text);bH[bJ].x=Math.random();bH[bJ].w=bH.screen.width;bH[bJ].h=bH.screen.height;bH[bJ].j=bH.innerHeight;bH[bJ].e=bH.innerWidth;bH[bJ].l=bH.location.href;bH[bJ].r=bI.referrer;bH[bJ].k=bH.screen.colorDepth;bH[bJ].n=bI.characterSet;bH[bJ].o=(new Date).getTimezoneOffset();if(bH.dataLayer)for(const bR of Object.entries(Object.entries(dataLayer).reduce((bS,bT)=>({...bS[1],...bT[1]}),{})))zaraz.set(bR[0],bR[1],{scope:"page"});bH[bJ].q=[];for(;bH.zaraz.q.length;){const bU=bH.zaraz.q.shift();bH[bJ].q.push(bU)}bP.defer=!0;for(const bV of[localStorage,sessionStorage])Object.keys(bV||{}).filter(bX=>bX.startsWith("_zaraz_")).forEach(bW=>{try{bH[bJ]["z_"+bW.slice(7)]=JSON.parse(bV.getItem(bW))}catch{bH[bJ]["z_"+bW.slice(7)]=bV.getItem(bW)}});bP.referrerPolicy="origin";bP.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(bH[bJ])));bO.parentNode.insertBefore(bP,bO)};["complete","interactive"].includes(bI.readyState)?zaraz.init():bH.addEventListener("DOMContentLoaded",zaraz.init)}}(w,d,"zarazData","script");window.zaraz._p=async bc=>new Promise(bd=>{if(bc){bc.e&&bc.e.forEach(be=>{try{const bf=d.querySelector("script[nonce]"),bg=bf?.nonce||bf?.getAttribute("nonce"),bh=d.createElement("script");bg&&(bh.nonce=bg);bh.innerHTML=be;bh.onload=()=>{d.head.removeChild(bh)};d.head.appendChild(bh)}catch(bi){console.error(`Error executing script: ${be}\n`,bi)}});Promise.allSettled((bc.f||[]).map(bj=>fetch(bj[0],bj[1])))}bd()});zaraz._p({"e":["(function(w,d){})(window,document)"]});})(window,document)}catch(e){throw fetch("/cdn-cgi/zaraz/t"),e;};</script></head>
+  <body class="body-dark">
+    <div class="page-wrapper">
+      <header class="main-header header-style-one">
+        <div class="header-upper">
+          <div class="inner-container clearfix">
+            <div class="logo-box">
+               <div class="logo"><a href="https://www.digimarkagency.com/" title="Digimark Logo" loading="lazy"><img src="images/logo.png" id="thm-logo" alt="top digital marketing companies in india" title="Digimark Agency Bangalore"></a></div>
+            </div>
+            <div class="nav-outer clearfix">
+              <div class="mobile-nav-toggler"><span class="icon flaticon-menu-2"></span><span class="txt">Menu</span></div>
+              <nav class="main-menu navbar-expand-md navbar-light">
+                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                  <ul class="navigation clearfix">
+                                        <li class="dropdown1"><a href="https://www.digimarkagency.com/">Home</a></li>
+                                        <li class="dropdown1"><a href="about-us.html">About Us</a></li>
+                                        <li class="dropdown">
+                                            <a href="#">Services</a>
+                                            <ul>
+                                                <li><a href="seo-company-bangalore.html">Search Engine Optimisation (SEO)</a></li>
+                                                <li><a href="/cro/conversion-rate-optimization-in-bangalore.html">Conversion Rate Optimization</a></li>
+                                                <!--<li><a href="social-media-marketing-company-bangalore.html">Social Media Marketing</a></li>-->
+                                                <li><a href="website-designing-and-development-company-in-bangalore.html">Website Designing</a></li>
+                                                <li><a href="website-anaytics.html">Website Analytics</a></li>
+                                                <!--<li><a href="paid-search.html">Paid Search (Adwords)</a></li>-->
+                                                <!--<li><a href="video-production-company-in-bangalore.html">Video Production</a></li>-->
+                                                <li><a href="mobile-marketing.html">Mobile Marketing</a></li>
+                                                <li><a href="email-marketing.html">Email Marketing</a></li>
+                                                <li><a href="best-app-store-optimisation-agencies-in-bangalore.html">App Store Optimisation</a></li>
+                                                
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown1"><a href="contact.html">Contact</a></li>
+                                        <li class="dropdown"><a href="#">Resources</a>
+                                        <ul>
+                                            <li class="dropdown1"><a href="https://www.digimarkagency.com/success-stories.html">Success stories</a></li>
+                                            <li class="dropdown1"><a href="our-clients.html">Our Clients</a></li>
+                                            <li class="dropdown1"><a href="team.html">Our Team</a></li>
+                                            <li class="dropdown1"><a href="https://www.digimarkagency.com/blog/">Blog</a></li>
+                                            <li class="dropdown1"><a href="career.html">Careers</a></li>
+                                        </ul>
+                                        </li>
+                                    </ul>
+                </div>
+              </nav>
+              <div class="other-links clearfix">
+              <div class="link-box">
+                <div class="call-us"> <a class="link" href="tel:+918884330607"> <span class="icon"></span> <span class="sub-text" style="font-size:25px;">Call Anytime</span> <span class="number" style="font-size:25px;">888 433 0607</span> </a> </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="side-menu__block">
+        <div class="side-menu__block-overlay custom-cursor__overlay">
+          <div class="cursor"></div>
+          <div class="cursor-follower"></div>
+        </div>
+        <div class="side-menu__block-inner ">
+          <div class="side-menu__top justify-content-end">
+            <a href="#" class="side-menu__toggler side-menu__close-btn"><img src="images/icons/close-1-1.png" alt="digital marketing in bangalore"></a>
+          </div>
+          <nav class="mobile-nav__container">
+          </nav>
+          <div class="side-menu__sep"></div>
+          <div class="side-menu__content">
+            <p>DigiMark Agency is one of the Best Digital Marketing agencies in Bangalore, India.</p>
+            <p><a href="/cdn-cgi/l/email-protection#2f464149406f4b464846424e5d444e484a414c56014c4042"><span class="__cf_email__" data-cfemail="2841464e47684c414f4145495a43494f4d464b51064b4745">[email&#160;protected]</span></a> <br> <a href="tel:+918884330607">888 433 0607</a></p>
+            <div class="side-menu__social">
+              <a href="https://www.facebook.com/digimarkeagency" target="_blank"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://twitter.com/DigimarkAgency" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/digimarkagency/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.pinterest.com/digimarkagency/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="parallax-section jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% 80%">
+        <div class="image-layer" style="background-image: url(images/background/image-2.jpg);"></div>
+        <div class="auto-container">
+          <div class="content-box">
+            <div class="icon-box"><span class="flaticon-app-development"></span></div>
+            <h2>Dear User! The Page you have Requested <span>cannot be found.</span></h2>
+          </div>
+        </div>
+      </section>
+      <section class="we-do-section">
+        <div class="auto-container">
+          <div class="row clearfix">
+            <div class="col-sm-12">
+              <div class="sec-title">
+                <h4 style="text-align:center;">Also see our<a href="seo-company-bangalore.html"><span style="color:#ffaa17"> Search Engine Optimisation (SEO) company in Bangalore</span></a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="main-footer">
+        <div class="auto-container">
+          <div class="widgets-section">
+            <div class="row clearfix">
+              <div class="column col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-widget logo-widget">
+                  <div class="widget-content">
+                    <h6>DIGITAL MARKETING COMPANIES IN INDIA</h6>
+                    <div class="row clearfix">
+                      <ul class="foot-li">
+                        <li><a href="https://www.digimarkagency.com/">Digital Marketing companies in Bangalore</a></li>
+                        <li><a href="https://www.digimarkagency.com/pune/digital-marketing-company-pune.html">Digital Marketing companies in Pune</a></li>
+                        <li><a href="https://www.digimarkagency.com/hyderabad/digital-marketing-company-hyderabad.html">Digital Marketing companies in Hyderabad</a></li>
+                        <li><a href="https://www.digimarkagency.com/mumbai/digital-marketing-company-mumbai.html">Digital Marketing companies in Mumbai</a></li>
+                        <li><a href="https://www.digimarkagency.com/chennai/digital-marketing-company-chennai.html">Digital Marketing companies in Chennai</a></li>
+                        <li><a href="https://www.digimarkagency.com/delhi/digital-marketing-company-delhi.html">Digital Marketing companies in Delhi</a></li>
+                        <li><a href="https://www.digimarkagency.com/kolkata/digital-marketing-company-kolkata.html">Digital Marketing companies in Kolkata</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-widget logo-widget">
+                  <div class="widget-content">
+                    <h6>SEO COMPANIES IN INDIA</h6>
+                    <div class="row clearfix">
+                      <ul class="foot-li">
+                        <li><a href="https://www.digimarkagency.com/seo-company-bangalore.html">SEO companies in Bangalore</a></li>
+                        <li><a href="https://www.digimarkagency.com/pune/seo-company-pune.html">SEO companies in Pune</a></li>
+                        <li><a href="https://www.digimarkagency.com/hyderabad/seo-company-hyderabad.html">SEO companies in Hyderabad</a></li>
+                        <li><a href="https://www.digimarkagency.com/mumbai/seo-company-mumbai.html">SEO companies in Mumbai</a></li>
+                        <li><a href="https://www.digimarkagency.com/chennai/seo-company-chennai.html">SEO companies in Chennai</a></li>
+                        <li><a href="https://www.digimarkagency.com/delhi/seo-company-delhi.html">SEO companies in Delhi</a></li>
+                        <li><a href="https://www.digimarkagency.com/kolkata/seo-company-kolkata.html">SEO companies in Kolkata</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-widget logo-widget">
+                  <div class="widget-content">
+                    <h6>DIGITAL SERVICES</h6>
+                    <div class="row clearfix">
+                      <ul class="foot-li">
+                        <li><a href="seo-company-bangalore.html">Search Engine Optimization</a></li>
+                        <li><a href="social-media-marketing-company-bangalore.html">Social Media Marketing</a></li>
+                        <li><a href="website-designing-and-development-company-in-bangalore.html">Website Designing</a></li>
+                        <li><a href="website-anaytics.html">Web Analytics</a></li>
+                        <li><a href="paid-search.html">Paid Search (Adwords)</a></li>
+                        <li><a href="video-production-company-in-bangalore.html">Video Production</a></li>
+                        <li><a href="mobile-marketing.html">Mobile Marketing</a></li>
+                        <li><a href="email-marketing.html">Email Marketing</a></li>
+                        <li><a href="best-app-store-optimisation-agencies-in-bangalore.html">APP Store Optimisation</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column col-xl-2 col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-widget info-widget">
+                  <div class="widget-content">
+                    <h6>Contact</h6>
+                    <ul class="contact-info">
+                      <li class="address"><span class="icon flaticon-pin-1"></span><b>DigiMark Agency</b>
+                        BMTC Complex, 1st floor - Garuda BHIVE Workspace BTM Layout Campus, Outer Ring Rd, Old Madiwala, Kuvempu Nagar, BTM 2nd Stage, Bengaluru, Karnataka 560068
+                      </li>
+                      <li><span class="icon flaticon-call"></span><a href="tel:+918884330607">888 433 0607</a></li>
+                      <li><span class="icon flaticon-email-2"></span><a href="/cdn-cgi/l/email-protection#86efe8e0e9c6e2efe1efebe7f4ede7e1e3e8e5ffa8e5e9eb"><span class="__cf_email__" data-cfemail="10797e767f50747977797d71627b7177757e73693e737f7d">[email&#160;protected]</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="auto-container">
+            <div class="inner clearfix">
+              <div class="pi-row-block pi-row-block-logo pi-row-block-bordered">
+                <a href="https://www.digimarkagency.com/">
+                  <img data-cfsrc="images/logo_dark.png" data-src="images/logo_dark.png" alt="internet marketing firm bangalore" style="display:none;visibility:hidden;">
+                  <noscript><img src="images/logo_dark.png" data-src="images/logo_dark.png" alt="internet marketing firm bangalore"></noscript>
+                </a>
+              </div>
+              <div class="copyright">&copy; copyright 2023 by DigitalMarga Online Services Pvt Ltd. All Rights Reserved </div>
+              <ul class="social-links clearfix">
+                <li><a href="https://www.facebook.com/digimarkeagency" target="_blank" rel="noopener"><span class="fab fa-facebook-square"></span></a></li>
+                <li><a href="https://twitter.com/DigimarkAgency" target="_blank" rel="noopener"><span class="fab fa-twitter"></span></a></li>
+                <li><a href="https://www.instagram.com/digimarkagency/" target="_blank" rel="noopener"><span class="fab fa-instagram"></span></a></li>
+                <li><a href="https://www.linkedin.com/company/digimark-agency" target="_blank" rel="noopener"><span class="fab fa-linkedin-in"></span></a></li>
+                <li><a href="https://www.pinterest.com/digimarkagency/" target="_blank" rel="noopener"><span class="fab fa-pinterest-p"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/TweenMax.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/knob.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jQuery.style.switcher.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.2/js.cookie.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/custom-script.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="js/color-switcher.js"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"79c71736644147bc88927a593578a678","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
