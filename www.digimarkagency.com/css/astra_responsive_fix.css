@@ -1,0 +1,793 @@
+/*
+ * ================================================================
+ *  ASTRA DIGITAL MARKET — Full Responsive Fix
+ *  Paste this as the LAST <link> in your <head>
+ *  Works on all devices: mobile, tablet, desktop
+ * ================================================================
+ */
+
+/* ── GLOBAL BOX SIZING ─────────────────────────────────────── */
+*, *::before, *::after {
+    box-sizing: border-box !important;
+}
+
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* ── PREVENT HORIZONTAL SCROLL ─────────────────────────────── */
+html, body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+}
+
+.page-wrapper,
+.auto-container,
+section,
+.row {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+/* ── AUTO CONTAINER WIDTH ──────────────────────────────────── */
+.auto-container {
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+
+/* ================================================================
+   NAVBAR / HEADER — MOBILE
+   ================================================================ */
+@media (max-width: 991px) {
+
+    /* Header wrapper */
+    .main-header .inner-container {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        padding: 10px 15px !important;
+    }
+
+    /* Logo */
+    .main-header .logo-box {
+        flex: 1 !important;
+    }
+    .main-header .logo img {
+        max-height: 55px !important;
+        width: auto !important;
+    }
+
+    /* Hamburger toggler */
+    .mobile-nav-toggler {
+        display: flex !important;
+        align-items: center !important;
+        cursor: pointer !important;
+        color: #fff !important;
+        font-size: 22px !important;
+        gap: 6px !important;
+        padding: 6px !important;
+    }
+
+    /* Phone number — hide on small screens */
+    .main-header .other-links {
+        display: none !important;
+    }
+
+    /* Nav menu hidden by default on mobile */
+    .main-menu .navbar-collapse {
+        display: none !important;
+        width: 100% !important;
+        background: #C8A84B !important;
+        padding: 10px 0 !important;
+    }
+    .main-menu .navbar-collapse.show {
+        display: block !important;
+    }
+
+    /* Nav links stacked vertically */
+    .main-menu .navigation > li {
+        display: block !important;
+        width: 100% !important;
+        border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+    }
+    .main-menu .navigation > li > a {
+        display: block !important;
+        padding: 12px 20px !important;
+        color: #fff !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+    }
+    .main-menu .navigation > li > a:hover {
+        color: #000 !important;
+        background: rgba(0,0,0,0.1) !important;
+    }
+
+    /* Dropdown menus */
+    .main-menu .navigation .dropdown > ul,
+    .main-menu .navigation .dropdown1 > ul {
+        position: static !important;
+        display: none !important;
+        background: rgba(0,0,0,0.15) !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+    }
+    .main-menu .navigation .dropdown.active > ul {
+        display: block !important;
+    }
+    .main-menu .navigation .dropdown > ul li a {
+        padding: 10px 30px !important;
+        color: #fff !important;
+        font-size: 14px !important;
+    }
+}
+
+/* Show phone on tablets and up */
+@media (min-width: 992px) {
+    .mobile-nav-toggler { display: none !important; }
+}
+
+
+/* ================================================================
+   HERO / BANNER SECTION
+   ================================================================ */
+@media (max-width: 767px) {
+    .digi-banner-sec {
+        min-height: auto !important;
+        padding: 120px 0 60px !important;
+    }
+    .digi-banner-sec .content-box {
+        height: auto !important;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+    .digi-banner-sec .inner {
+        text-align: center !important;
+        max-width: 100% !important;
+    }
+    .digi-banner-sec h1.banner-text {
+        font-size: 28px !important;
+        line-height: 1.3 !important;
+        margin-bottom: 16px !important;
+    }
+    .digi-banner-sec .sub-title {
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+        margin-bottom: 20px !important;
+    }
+    .digi-banner-sec .link-box {
+        text-align: center !important;
+    }
+    .digi-banner-sec .theme-btn {
+        font-size: 13px !important;
+        padding: 10px 20px !important;
+    }
+    .digi-banner-sec .stars,
+    .digi-banner-sec .rating-text {
+        display: block !important;
+        text-align: center !important;
+        margin: 10px auto 0 auto !important;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .digi-banner-sec h1.banner-text {
+        font-size: 38px !important;
+    }
+}
+
+
+/* ================================================================
+   SPONSORS / CLIENTS SECTION
+   ================================================================ */
+@media (max-width: 767px) {
+    .sponsors-section {
+        padding: 30px 0 !important;
+    }
+    .sponsors-section h2 {
+        font-size: 22px !important;
+        text-align: center !important;
+        padding: 0 15px !important;
+    }
+    .sponsors-carousel,
+    .owl-carousel {
+        overflow: hidden !important;
+    }
+}
+
+
+/* ================================================================
+   CORE SERVICES CARDS GRID
+   ================================================================ */
+.martservices .grid,
+.core-card .grid {
+    display: grid !important;
+    gap: 20px !important;
+    padding: 0 !important;
+}
+
+/* Mobile: 1 column */
+@media (max-width: 767px) {
+    .martservices .grid,
+    .core-card .grid {
+        grid-template-columns: 1fr !important;
+    }
+    .martservices h2,
+    .core-card h2.section-title {
+        font-size: 26px !important;
+        text-align: center !important;
+        margin-bottom: 24px !important;
+    }
+    .core-card .card,
+    .martservices .card {
+        padding: 22px 18px !important;
+    }
+    .core-card .card > h2,
+    .martservices .card h2 {
+        font-size: 1rem !important;
+    }
+}
+
+/* Tablet: 2 columns */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .martservices .grid,
+    .core-card .grid {
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+/* Desktop: 3 columns */
+@media (min-width: 1024px) {
+    .martservices .grid,
+    .core-card .grid {
+        grid-template-columns: 1fr 1fr 1fr !important;
+    }
+}
+
+
+/* ================================================================
+   WE DO SECTION — PROGRESS BARS
+   ================================================================ */
+@media (max-width: 767px) {
+    .we-do-section .left-col,
+    .we-do-section .right-col {
+        padding: 0 15px !important;
+        margin-bottom: 24px !important;
+    }
+    .we-do-section .sec-title h2 {
+        font-size: 24px !important;
+        line-height: 1.3 !important;
+    }
+    .we-do-section .row .col-lg-6 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+    .progress-box {
+        margin-bottom: 16px !important;
+    }
+    .bar-title {
+        font-size: 13px !important;
+    }
+}
+
+
+/* ================================================================
+   ABOUT SECTION — IMAGE + TEXT COLUMNS
+   ================================================================ */
+@media (max-width: 991px) {
+    .about-section .image-column,
+    .about-section .text-column {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        padding: 0 15px !important;
+        margin-bottom: 24px !important;
+    }
+    .about-section .image-block {
+        margin-bottom: 16px !important;
+    }
+    .about-section .image-block img {
+        border-radius: 8px !important;
+    }
+    /* Hide second image on mobile to avoid clutter */
+    .about-section .image-column .inner > .image-block:last-child {
+        display: none !important;
+    }
+    .about-section .sec-title h2 {
+        font-size: 24px !important;
+    }
+}
+
+
+/* ================================================================
+   FACTS / COUNTER SECTION
+   ================================================================ */
+@media (max-width: 767px) {
+    .facts-section .fact-counter .row {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 20px !important;
+    }
+    .facts-section .counter-column {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none !important;
+        text-align: center !important;
+    }
+    .facts-section .count-outer h1 {
+        font-size: 36px !important;
+    }
+    .facts-section .counter-title {
+        font-size: 13px !important;
+    }
+}
+
+
+/* ================================================================
+   TRUSTED SECTION — FEATURES LEFT / TEXT RIGHT
+   ================================================================ */
+@media (max-width: 991px) {
+    .trusted-section .left-col,
+    .trusted-section .right-col {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        padding: 0 15px !important;
+        margin-bottom: 30px !important;
+    }
+    .trusted-section .features .feature {
+        margin-bottom: 20px !important;
+    }
+    .trusted-section .col-header {
+        margin-bottom: 20px !important;
+    }
+}
+
+
+/* ================================================================
+   PARALLAX SECTION
+   ================================================================ */
+@media (max-width: 767px) {
+    .parallax-section {
+        padding: 50px 15px !important;
+    }
+    .parallax-section h2 {
+        font-size: 22px !important;
+        text-align: center !important;
+        line-height: 1.4 !important;
+    }
+    .parallax-section .icon-box {
+        text-align: center !important;
+        margin-bottom: 16px !important;
+    }
+}
+
+
+/* ================================================================
+   AGENCY SECTION — TABS
+   ================================================================ */
+@media (max-width: 991px) {
+    .agency-section .left-col {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        margin-bottom: 30px !important;
+    }
+    .agency-section .tab-btns {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .agency-section .tab-btns .tab-btn {
+        padding: 12px 20px !important;
+        font-size: 14px !important;
+    }
+}
+
+
+/* ================================================================
+   WHY ASTRA — 3 FEATURE CARDS
+   ================================================================ */
+@media (max-width: 767px) {
+    .feature-seven .row {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+    .feature-seven .col-md-12 {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .feature-seven .feature-seven-card__title {
+        font-size: 16px !important;
+    }
+    .feature-seven .feature-seven-card__text {
+        font-size: 13px !important;
+    }
+    .feature-seven .sec-title h3 {
+        font-size: 24px !important;
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .feature-seven .row {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 20px !important;
+    }
+    .feature-seven .col-md-12:last-child {
+        grid-column: 1 / -1 !important;
+        max-width: 50% !important;
+        margin: 0 auto !important;
+    }
+}
+
+
+/* ================================================================
+   FAQ SECTION
+   ================================================================ */
+@media (max-width: 767px) {
+    .faqs-section {
+        padding: 30px 0 60px !important;
+    }
+    .faqs-section .sec-title h2 {
+        font-size: 24px !important;
+        text-align: center !important;
+    }
+    .accordion-box .acc-btn {
+        font-size: 13px !important;
+        padding: 14px 15px !important;
+        line-height: 1.4 !important;
+    }
+    .accordion-box .acc-content .text {
+        font-size: 13px !important;
+        line-height: 1.6 !important;
+    }
+}
+
+
+/* ================================================================
+   CALL TO ACTION SECTION
+   ================================================================ */
+@media (max-width: 767px) {
+    .call-to-section {
+        padding: 40px 0 60px !important;
+    }
+    .call-to-section h2 {
+        font-size: 24px !important;
+        text-align: center !important;
+        line-height: 1.3 !important;
+        margin-bottom: 20px !important;
+    }
+    .call-to-section .link-box {
+        text-align: center !important;
+    }
+}
+
+
+/* ================================================================
+   CONTACT FORM SECTION
+   ================================================================ */
+@media (max-width: 767px) {
+    .wa-card {
+        padding: 16px 14px !important;
+        margin: 0 10px !important;
+        border-radius: 10px !important;
+    }
+    .wa-card h2.wa-title {
+        font-size: 22px !important;
+    }
+    .wa-grid {
+        grid-template-columns: 1fr !important;
+    }
+    .wa-field-full {
+        grid-column: 1 !important;
+    }
+    .wa-chips .wa-chip {
+        font-size: 11px !important;
+        padding: 5px 10px !important;
+    }
+
+    /* Quote form */
+    .dm-quote-form {
+        padding: 24px 14px !important;
+    }
+    .dm-quote-form .qf-row {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+    }
+    .dm-quote-form label {
+        font-size: 13px !important;
+    }
+    .dm-quote-form input[type="text"],
+    .dm-quote-form input[type="email"],
+    .dm-quote-form input[type="tel"] {
+        height: 44px !important;
+        font-size: 14px !important;
+    }
+    .dm-quote-form .qf-submit {
+        padding: 12px 30px !important;
+        font-size: 15px !important;
+    }
+}
+
+
+/* ================================================================
+   BLOG SECTION
+   ================================================================ */
+@media (max-width: 767px) {
+    .blog-section .blog-container {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 24px !important;
+    }
+    .blog-section .blog-card {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+}
+
+
+/* ================================================================
+   CUSTOMER REVIEWS
+   ================================================================ */
+@media (max-width: 767px) {
+    .customer-section .reviews-container {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    .customer-section .review-card {
+        max-width: 100% !important;
+    }
+}
+
+
+/* ================================================================
+   FOOTER
+   ================================================================ */
+@media (max-width: 767px) {
+    .main-footer .widgets-section .row {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 24px !important;
+    }
+    .main-footer .column {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none !important;
+        padding: 0 !important;
+    }
+    .main-footer .footer-widget h4,
+    .main-footer .footer-widget h6 {
+        font-size: 14px !important;
+        margin-bottom: 10px !important;
+    }
+    .main-footer .foot-li li a {
+        font-size: 13px !important;
+    }
+    .main-footer .footer-bottom .inner {
+        flex-direction: column !important;
+        text-align: center !important;
+        gap: 12px !important;
+    }
+    .main-footer .social-links {
+        justify-content: center !important;
+    }
+    .main-footer .copyright {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-footer .widgets-section .row {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+
+/* ================================================================
+   FLOATING BUTTONS — PREVENT OVERLAP ON MOBILE
+   ================================================================ */
+@media (max-width: 767px) {
+
+    /* WhatsApp button */
+    div[style*="bottom:180px"] {
+        bottom: 160px !important;
+        right: 8px !important;
+    }
+
+    /* Call button */
+    div[style*="bottom:108px"] {
+        bottom: 95px !important;
+        right: 8px !important;
+    }
+
+    /* Enquire Now widget */
+    #dm-enq {
+        right: 8px !important;
+        bottom: 8px !important;
+    }
+    #dm-enq-btn {
+        padding: 10px 14px !important;
+        font-size: 13px !important;
+    }
+    #dm-enq-panel {
+        width: calc(100vw - 30px) !important;
+        right: 0 !important;
+    }
+
+    /* Popup boxes */
+    div[id="whatsappBox"],
+    div[id="callBox"] {
+        width: calc(100vw - 30px) !important;
+        right: 0 !important;
+    }
+}
+
+
+/* ================================================================
+   THEME BUTTONS — RESPONSIVE
+   ================================================================ */
+@media (max-width: 767px) {
+    .theme-btn .btn-title {
+        font-size: 13px !important;
+        padding: 10px 18px !important;
+    }
+    a.theme-btn {
+        font-size: 13px !important;
+    }
+}
+
+
+/* ================================================================
+   SECTION HEADING GLOBAL RESPONSIVE
+   ================================================================ */
+@media (max-width: 767px) {
+    .sec-title h2,
+    .sec-title-01 h2,
+    h2.section-title {
+        font-size: 24px !important;
+        line-height: 1.3 !important;
+    }
+    .sec-title h3 {
+        font-size: 20px !important;
+    }
+    section {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .sec-title h2 {
+        font-size: 30px !important;
+    }
+}
+
+
+/* ================================================================
+   COLUMNS — FORCE FULL WIDTH ON MOBILE
+   ================================================================ */
+@media (max-width: 767px) {
+    [class*="col-lg-"],
+    [class*="col-xl-"] {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    [class*="col-sm-12"] {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+}
+
+
+/* ================================================================
+   TRUSTED SECTION FEATURES STYLING ON MOBILE
+   ================================================================ */
+@media (max-width: 767px) {
+    .trusted-section .feature {
+        flex-direction: column !important;
+        gap: 8px !important;
+        padding: 14px !important;
+        border: 1px solid #eee !important;
+        border-radius: 8px !important;
+        margin-bottom: 14px !important;
+    }
+    .trusted-section .feature .count {
+        font-size: 28px !important;
+    }
+    .trusted-section .feature .h5-head {
+        font-size: 14px !important;
+    }
+    .trusted-section .feature .sub-text {
+        font-size: 13px !important;
+    }
+}
+
+
+/* ================================================================
+   ACCORDION / FAQ — FULL WIDTH MOBILE
+   ================================================================ */
+@media (max-width: 767px) {
+    .faq-block {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .accordion-box {
+        width: 100% !important;
+    }
+    .accordion-box .acc-btn {
+        word-break: break-word !important;
+    }
+}
+
+
+/* ================================================================
+   IMAGE COLUMN MOBILE — ABOUT SECTION STACK FIX
+   ================================================================ */
+@media (max-width: 767px) {
+    .image-mob {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 12px !important;
+    }
+    .image-mob .image-block {
+        width: 100% !important;
+    }
+    .image-mob .image-block img {
+        width: 100% !important;
+        border-radius: 8px !important;
+        object-fit: cover !important;
+        max-height: 240px !important;
+    }
+}
+
+
+/* ================================================================
+   CALL TO SECTION SHAPE OVERFLOW FIX
+   ================================================================ */
+.call-to-section .shape-1,
+.call-to-section .shape-2 {
+    overflow: hidden !important;
+}
+@media (max-width: 767px) {
+    .call-to-section .shape-1,
+    .call-to-section .shape-2 {
+        display: none !important;
+    }
+}
+
+
+/* ================================================================
+   SINCE BADGE (About section)
+   ================================================================ */
+@media (max-width: 767px) {
+    .since {
+        margin: 16px auto !important;
+        text-align: center !important;
+    }
+}
+
+
+/* ================================================================
+   REVIEW BADGE
+   ================================================================ */
+@media (max-width: 767px) {
+    .review-badge {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        padding: 8px 16px !important;
+        font-size: 12px !important;
+    }
+}
